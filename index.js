@@ -44,12 +44,8 @@ app.post('/api/form',(req,res)=>{
              user: 'mythilmeshram@gmail.com', // generated ethereal user
              pass: 'toxicmetal@2013' // generated ethereal password
              //
-         },
-         tls:{
- 
-             rejectUnauthorized : false
- 
          }
+
      });
 
      // setup email data with unicode symbols
